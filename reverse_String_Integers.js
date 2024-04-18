@@ -7,7 +7,6 @@ function reverseString(str) {
     return reversedStr;
 }
 
-// Sử dụng hàm reverseString
 let originalStr = "Hello, world!";
 let reversedStr = reverseString(originalStr);
 console.log("Chuỗi gốc:", originalStr);
@@ -23,8 +22,8 @@ function reverseInteger(num) {
     return reversedNum;
 }
 
-// Sử dụng hàm reverseInteger
 let originalNum = 12345;
 let reversedNum = reverseInteger(originalNum);
 console.log("Số nguyên gốc:", originalNum);
 console.log("Số nguyên đảo ngược:", reversedNum);
+
